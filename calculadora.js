@@ -15,6 +15,13 @@ function dividir(a, b) {
   return a / b;
 }
 
+function isPar(a) {
+  if (a % 2 == 0) {
+    return "es par";
+  } else {
+    return "No es par";
+  }
+}
 sumar(5, 2);
 restar(10, 20);
 multiplicar(4, 5);
