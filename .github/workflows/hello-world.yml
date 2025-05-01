@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: create hello file
-        run: echo hola mundo.txt
-      - name: print hello-world on file
-        run: echo "hola mundo" > hola.txt
-      - name: read hello-world file
-        run: more hello-wrld.txt
+        run: echo hola-mundo.txt
+      - name: print hello world on file
+        run: echo "hola mundo" > hola-mundo.txt
+      - name: read hola-mundo file
+        run: more hola-mundo.txt
   atual-directory:
     runs-on: ubuntu-latest
     steps:
