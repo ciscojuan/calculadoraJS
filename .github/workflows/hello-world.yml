@@ -13,6 +13,7 @@ jobs:
       - name: read hola-mundo file
         run: more hola-mundo.txt
   atual-directory:
+    needs: hola
     runs-on: ubuntu-latest
     steps:
       - name: print current directory
