@@ -3,6 +3,9 @@ descrition: "Test my action"
 
 runs:
   using: "composite"
-  run: echo "Hola mundo"
-  shell: bash 
+  steps:
+    - name: "Hello world" 
+      run: echo "Hola mundo"
+      shell: bash
+
 
