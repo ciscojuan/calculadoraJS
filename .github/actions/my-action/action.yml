@@ -1,0 +1,8 @@
+name: "my_action"
+descrition: "Test my action"
+
+runs:
+  using: "composite"
+  run: echo "Hola mundo"
+  shell: bash 
+
